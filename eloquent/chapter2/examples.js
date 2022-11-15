@@ -63,14 +63,23 @@ while(number4 <= 12) {
 
 let insertNumberRaised = prompt("Introduce your number");
 let numberRaised = insertNumberRaised;
-let result = numberRaised;
 let int = 1;
 while(int < 10) {
-	result *= 2;
+	numberRaised *= 2;
 	int +=  1;
 }
-console.log("Your number raised ten is: " + result);
+console.log("Your number raised ten is: " + numberRaised);
 
 
 /**************************************************************************/
+
+let yourName;
+do {
+	yourName = prompt("How are you?");
+} 
+while (!yourName);
+console.log(yourName);
+
+/**************************************************************************/
+
 
