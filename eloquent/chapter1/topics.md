@@ -3,7 +3,7 @@
 <h2 text-align="center">Introduce</h2>
 
 <ul text-align="center">
-	<li>Variables</li>
+	<li>Values</li>
 	<li>Type of data</li>
 	<li>Data structure</li>
 </ul>
