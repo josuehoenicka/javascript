@@ -82,4 +82,47 @@ console.log(yourName);
 
 /**************************************************************************/
 
+let result = 1;
+for (let i = 0; i < 10; i++) {
+	result *= 2;
+}
+console.log(result); /* 1024 */
+
+/**************************************************************************/
+
+for (let x = 20; x++) {
+	if (actual % 7 == 0) {
+		console.log(actual);
+		break;
+	}
+}
+console.log(x); /* 21 */
+
+/**************************************************************************/
+
+switch (prompt("How is weather?")) {
+	case "beautifil":
+		console.log("Great! Have a nice today :)");
+		break;
+	case "ok":
+		console.log("It's ok!");
+		break;
+	case "awful":
+		console.log("Oh, so sorry! :(");
+		break;
+	default:
+		console.log("I don't understand you, sorry");
+		break;
+}
+
+/**************************************************************************/
+
+let bigRedHat; /* camel case */
+let big_red_hat; /* snake case */
+let bigredhat;
+let BigRedHat;
+
+/**************************************************************************/
+
+
 
