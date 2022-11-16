@@ -53,10 +53,10 @@ if (bigNumber > 0 && bigNumber <= 100) {
 
 /**************************************************************************/
 
-let number4 = 0;
-while(number4 <= 12) {
-	console.log(number4); /* 0, 2, 4, 6, 8, 10, 12 */
-	number4 += 2;
+let parNumber = 0;
+while(parNumber <= 12) {
+	console.log(parNumber); /* 0, 2, 4, 6, 8, 10, 12 */
+	parNumber += 2;
 }
 
 /**************************************************************************/
