@@ -12,5 +12,13 @@
 	<li>Return values</li>
 	<li>Control flow</li>
 	<li>Conditional execution</li>
-	<li>Loops (While y Do)</li>
+	<li>While loops</li>
+	<li>Do loops</li>
+	<li>(Identando codigo)</li>
+	<li>For loops</li>
+	<li>Break a loop</li>
+	<li>(Actualizando vinculaciones de manera sucinta)</li>
+	<li>Switch</li>
+	<li>Capitalize</li>
+	<li>Comments</li>
 </ul>
