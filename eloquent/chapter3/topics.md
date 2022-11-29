@@ -4,10 +4,10 @@
 
 <ul text-align="center">
 	<li>Define a function</li>
-	<li>Vinculations and (alcances)</li>
-	<li>(Alcance anidado)</li>
+	<li>Vinculations and scopes</li>
+	<li>Nested scope</li>
 	<li>Functions like values</li>
-	<li>(Notacion de declaracion)</li>
-	<li>(Funciones de flecha)</li>
-	<li>(La pila de llamadas)</li>
+	<li>Declaration notation</li>
+	<li>Arrow functions</li>
+	<li>Call stack</li>
 </ul>

@@ -10,7 +10,7 @@ const makeNoise = function(noise){
 	console.log(noise);
 }
 
-const potencialWithBase(base, exponent){
+const potencialWithBase(base, exponent) {
 	let result = 1;
 	for (let i = 0; i < exponent; i++) {
 		result *= base;
@@ -104,7 +104,7 @@ const carNoise = () => {
 /**************************************************************************/
 
 function sayHi(somebody){
-	console.log({"Hi " + somebody)
+	console.log("Hi " + somebody);
 }
 sayHi("Josue");
 console.log("Goodbye");
