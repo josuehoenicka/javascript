@@ -10,14 +10,6 @@ const makeNoise = function(noise){
 	console.log(noise);
 }
 
-const potencialWithBase(base, exponent) {
-	let result = 1;
-	for (let i = 0; i < exponent; i++) {
-		result *= base;
-	}
-	return result;
-}
-
 /**************************************************************************/
 
 let x = 10;
