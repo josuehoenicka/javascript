@@ -10,4 +10,6 @@
 	<li>Declaration notation</li>
 	<li>Arrow functions</li>
 	<li>Call stack</li>
+	<li>Optionals Arguments</li>
+	<li>Closed</li>
 </ul>

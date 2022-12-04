@@ -115,4 +115,34 @@ console.log(gallina() + " first"); // ?
 
 /**************************************************************************/
 
-/* 2/12/2022 */
+fuction testNumber(x){
+	return x * x;
+}
+console.log(testNumber(4, true, "hi")); // 16
+
+/**************************************************************************/
+
+function minus(n1, n2){
+	if (n2 === undefined) {
+		return -a;
+	} else {
+		return a - b;
+	}
+}
+console.log(10); // -10
+console.log(100, 50); // 50
+
+/**************************************************************************/
+
+function numberPotencial(number, exponent = 2){
+	let result = 1;
+	for (let i = 0; i < exponent; i++){
+		result *= number;
+	}
+	return result;
+}
+console.log(numberPotencial(9)); // 81
+console.log(numberPotencial(5, 4)) // 625
+
+/**************************************************************************/
+
