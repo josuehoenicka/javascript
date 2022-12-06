@@ -181,7 +181,7 @@ console.log(potencia(2, 3)); // 8
 /**************************************************************************/
 
 function encontrarSolucion(objetivo){
-	function encontrar(actual, historia) {
+	function encontrar(actual, historia) {	
 		if (actual == objetivo) {
 			return historia;
 		} else if (actual > objetivo) {
@@ -193,9 +193,10 @@ function encontrarSolucion(objetivo){
 	}
 	return encontrar(1, "1");
 }
-console.log*encontrarSolucion(24); // (((1 * 3) + 5) * 3)
+console.log(encontrarSolucion(24)); // (((1 * 3) + 5) * 3)
 
 /**************************************************************************/
+
 
 
 
