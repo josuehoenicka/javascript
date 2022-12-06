@@ -146,3 +146,57 @@ console.log(numberPotencial(5, 4)) // 625
 
 /**************************************************************************/
 
+function enVolverValor(n) {
+	let local = n;
+	return () => local;
+}
+let envolver1 = enVolverValor(1);
+let envolver2 = enVolverValor(2);
+console.log(envolver1()); // 1
+console.log(envolver2()); // 2
+
+/**************************************************************************/
+
+function multiplicador(factor){
+	return numero => numero * factor;
+}
+let duplicar = multiplicador(2);
+console.log(duplicar(5)); // 10
+
+/**************************************************************************/
+/**************************************************************************/
+/************************* ... / recursion ********************************/
+/**************************************************************************/
+/**************************************************************************/
+
+function potencia(base, exponente) {
+	if (exponente == 0) {
+		return 1;
+	} else {
+		return base * potencia(base, exponente - 1);
+	}
+}
+console.log(potencia(2, 3)); // 8
+
+/**************************************************************************/
+
+function encontrarSolucion(objetivo){
+	function encontrar(actual, historia) {
+		if (actual == objetivo) {
+			return historia;
+		} else if (actual > objetivo) {
+			return null;
+		} else {
+			return encontrar(actual + 5, `(${historia} + 5)`) ||
+				   encontrar(actual * 3, `(${historia} * 3)`)
+		}
+	}
+	return encontrar(1, "1");
+}
+console.log*encontrarSolucion(24); // (((1 * 3) + 5) * 3)
+
+/**************************************************************************/
+
+
+
+
